@@ -1,5 +1,3 @@
-
-
 #' @title Make Cache Matrix, SAK66 21/06/16, for R Programming Assignment 2
 #'
 #' @description
@@ -19,8 +17,6 @@
 #' cm$setinverse(inverse)
 #' inverse <- cm$getinverse()
 #' 
-#' 
-
 makeCacheMatrix <- function(x = matrix()) {
                 i <- NULL
                 set <- function(y) {
@@ -34,9 +30,6 @@ makeCacheMatrix <- function(x = matrix()) {
                      setinverse = setinverse,
                      getinverse = getinverse)
 }
-
-
-## Write a short comment describing this function
 
 #' @title cache Solve, SAK66 21/06/16, for R Programming Assignment 2
 #'
